@@ -13,11 +13,11 @@ const StripeCheckoutButton = ({ price }) => {
     return (
         <StripeCheckout
             label='Pay Now'
-            name='makes Scents'
+            name='Athletes Foot'
             billingAddress
             shippingAddress
-            image='https://svgshare.com/i/CUz.svg'
-            description={`Your total is €${price}`}
+            image='https://www.svgrepo.com/show/373017/foot.svg'
+            description={`Your total is $ {price}`}
             amount={priceForStripe}
             panelLabel='Pay Now'
             token={onToken}
