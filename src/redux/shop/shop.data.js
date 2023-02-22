@@ -8,7 +8,7 @@ const SHOP_DATA = {
               id: 1,
               name: "Adidas NMD R1",
               imageUrl: require("../../image/bestsellers/adidas-NMD-R1.png"),
-              price: 75,
+              price: 175,
           },
           {
               id: 2,
@@ -20,7 +20,7 @@ const SHOP_DATA = {
               id: 3,
               name: "Jordan 13 Retro",
               imageUrl: require("../../image/bestsellers/jordan-13-retro.png"),
-              price: 68,
+              price: 168,
           },
           {
               id: 4,
@@ -32,31 +32,31 @@ const SHOP_DATA = {
               id: 5,
               name: "Nike Air Max 90",
               imageUrl: require("../../image/bestsellers/nike-air-max-90.png"),
-              price: 65,
+              price: 165,
           },
           {
               id: 6,
               name: "Nike Air Max 97",
               imageUrl: require("../../image/bestsellers/Nike-Air-Max-97.png"),
-              price: 85,
+              price: 185,
           },
           {
               id: 7,
               name: "Nike Air VaporMax Flyknit 3",
               imageUrl: require("../../image/bestsellers/Nike-Air-VaporMax-Flyknit-3.png"),
-              price: 60,
+              price: 160,
           },
           {
               id: 8,
               name: "Nike Air VaporMax Plus",
               imageUrl: require("../../image/bestsellers/Nike-Air-VaporMax-Plus.png"),
-              price: 95,
+              price: 195,
           },
           {
               id: 9,
               name: "Nike Revolution 5",
               imageUrl: require("../../image/bestsellers/Nike-Revolution-5.png"),
-              price: 74,
+              price: 174,
           },
       ]
   },
@@ -124,38 +124,38 @@ const SHOP_DATA = {
               id: 18,
               name: "Adidas Lite Racer Adapt-3.0",
               imageUrl: require("../../image/budget/Adidas-Lite-Racer-Adapt-3.0.jpg"),
-              price: 20,
+              price: 60,
           },
           {
               id: 19,
               name: "Converse Chuck Taylor All Star High Top",
               imageUrl: require("../../image/budget/Converse-Chuck-Taylor-All-Star-High-Top.jpg"),
-              price: 14.5,
+              price: 64.5,
           },
           {
               id: 20,
               name: "Nike Court Vision Low",
               imageUrl: require("../../image/budget/Nike-Court-Vision-Low.jpg"),
-              price: 18,
+              price: 68,
           },
           {
               id: 21,
               name: "Nike Tanjun",
               imageUrl: require("../../image/budget/nike-tanjun.jpg"),
-              price: 25,
+              price: 65,
           },
           {
               id: 22,
               name: "Vans Slip On",
               imageUrl: require("../../image/budget/Vans-Slip-On.jpg"),
-              price: 19,
+              price: 59,
           },
       ]
   },
-  womens: {
+  women: {
       id: 4,
-      title: "Womens",
-      routeName: "womens",
+      title: "Women",
+      routeName: "women",
       items: [
           {
               id: 23,
@@ -167,25 +167,25 @@ const SHOP_DATA = {
               id: 24,
               name: "Nike Air Zoom Pegasus 38",
               imageUrl: require("../../image/women/Nike-Air-Zoom-Pegasus-38.png"),
-              price: 20,
+              price: 120,
           },
           {
               id: 25,
               name: "Nike Free TR8",
               imageUrl: require("../../image/women/Nike-Free-TR8.png"),
-              price: 80,
+              price: 180,
           },
           {
               id: 26,
               name: "Nike Metcon 7 Training",
               imageUrl: require("../../image/women/Nike-Metcon-7-Training-Shoes.png"),
-              price: 80,
+              price: 180,
           },
           {
               id: 27,
               name: "Nobull Training",
               imageUrl: require("../../image/women/Nobull-Training-Shoes.png"),
-              price: 45,
+              price: 145,
           },
           {
               id: 28,
@@ -197,50 +197,50 @@ const SHOP_DATA = {
               id: 29,
               name: "Tiem Slipstream Cycle",
               imageUrl: require("../../image/women/Tiem-Slipstream-Cycle-Sneaker.png"),
-              price: 20,
+              price: 120,
           },
       ]
   },
-  mens: {
+  men: {
       id: 5,
-      title: "Mens",
-      routeName: "mens",
+      title: "Men",
+      routeName: "men",
       items: [
           {
               id: 30,
               name: "Altra Solstice XT 2",
               imageUrl: require("../../image/men/Altra-Solstice-XT-2.png"),
-              price: 325,
+              price: 125,
           },
           {
               id: 31,
               name: "Feiyue Fe Lo 1920",
               imageUrl: require("../../image/men/Feiyue-Fe-Lo-1920.png"),
-              price: 20,
+              price: 120,
           },
           {
               id: 32,
               name: "Merrell Men’s Bare Access XTR",
               imageUrl: require("../../image/men/Merrell-Men’s-Bare-Access-XTR.png"),
-              price: 25,
+              price: 225,
           },
           {
               id: 33,
               name: "New Balance Men’s 990v5 Sneakers",
               imageUrl: require("../../image/men/New-Balance-Men’s-990v5-Sneakers.png"),
-              price: 25,
+              price: 125,
           },
           {
               id: 34,
               name: "Nike Metcon 7 Training Shoes",
               imageUrl: require("../../image/men/Nike-Metcon-7-Training-Shoes.png"),
-              price: 40,
+              price: 140,
           },
           {
               id: 35,
               name: "On Men’s Cloud 5",
               imageUrl: require("../../image/men/On-Men’s-Cloud-5.png"),
-              price: 25,
+              price: 125,
           },
       ]
   }

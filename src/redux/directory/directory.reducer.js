@@ -20,17 +20,17 @@ const INITIAL_STATE = {
         },
         {
             id: 4,
-            title: "mens",
+            title: "men",
             imageUrl: require("../../image/men.jpg"),
             size: "large",
-            linkUrl: "shop/mens"
+            linkUrl: "shop/men"
         },
         {
             id: 5,
-            title: "womens",
+            title: "women",
             imageUrl: require("../../image/women.jpg"),
             size: "large",
-            linkUrl: "shop/womens"
+            linkUrl: "shop/women"
         },
     ]
 }
